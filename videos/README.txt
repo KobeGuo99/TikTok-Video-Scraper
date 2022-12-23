@@ -1,0 +1,1 @@
+This folder is where all the videos will be stored.
