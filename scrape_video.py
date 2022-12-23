@@ -81,7 +81,7 @@ soup = BeautifulSoup(driver.page_source, "html.parser")
 videos = soup.find_all("div", {"class": "tiktok-yz6ijl-DivWrapper"})
 
 #downloads all the videos in the users' tiktok profile
-print(len(videos))
+print(f"Number of videos: {len(videos)}")
 for index, video in enumerate(videos):
     downloadVideo(video.a["href"], index)
     time.sleep(10)

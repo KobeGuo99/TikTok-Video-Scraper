@@ -1,4 +1,5 @@
-A web scraping program made in Python to scan through a users' TikTok profile and download all the videos with no watermark
+A web scraping program made in Python to scan through a users' TikTok profile and download all the videos with no watermark.
+Video showcase: https://youtu.be/xckrKUyUvYI
 
 Steps to use:
 1. Download all the modules used (selenium, BeautifulSoup)
